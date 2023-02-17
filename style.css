@@ -2,3 +2,90 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+		body {
+			background-color: #f2f2f2;
+		}
+
+		h1, h2, h3 {
+			text-align: center;
+		}
+
+		#wrapper {
+			width: 80%;
+			margin: auto;
+			background-color: white;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		}
+      div {
+      width: 90%;
+      margin: auto;
+      }
+		.bar {
+			border: 1px solid black;
+			border-radius: 10px;
+			box-shadow: 2px 2px 2px #d71919;
+			background-color: #00ff33;
+			color: aliceblue;
+			padding: 10px;
+			margin: 10px;
+			width: 80%;
+			margin: auto;
+      display: inline-block;
+      vertical-align: top;
+      box-sizing: border-box;
+		}
+		.itembox {
+			border: 1px solid black;
+			border-radius: 10px;
+			box-shadow: 2px 2px 2px brown;
+			background-color: #0000FF;
+			color: aliceblue;
+			padding: 10px;
+			margin: 10px;
+			width: 80%;
+			margin: auto;
+		}
+
+		.favorite {
+			border: 2px solid red;
+      border-radius: 10px;
+			box-shadow: 2px 2px 2px gray;
+			background-color: yellow;
+			color: black;
+      padding: 10px;
+			margin: 10px;
+			width: 80%;
+			margin: auto;
+		}
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+  
