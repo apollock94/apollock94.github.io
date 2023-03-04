@@ -1,0 +1,53 @@
+#borderimg {
+  background-color: #f2f2f2;
+  border-image: url(border.png) 30 30 round;
+}
+
+body {
+  background-color: white;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+
+ul {
+  list-style-image: url(list-marker.png);
+}
+
+img {
+  border-image: (border.png) 10 10 round;
+}
+
+.image-height {
+  height: 300px;
+}
+
+main {
+  background-color: white;
+  color: #333333;
+}
+
+#wrapper {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+ul {
+  list-style-image: url(pirate.jpg);
+}
+
+.specialborder {
+  border: 10px solid transparent;
+  -webkit-border-image: url(border.png) 30 30 round;
+  -o-border-image: url(border.png) 30 30 round;
+  border-image: url(border.png) 30 30 round;
+}
+
+ul {
+  border: 10px solid transparent;
+  -webkit-border-image: url(border.png) 30 30 round;
+  -o-border-image: url(border.png) 30 30 round;
+  border-image: url(border.png) 30 30 round;
+}
